@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.6.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0099", "R5T.T0099\R5T.T0099.csproj", "{8971D0FC-AE9E-479B-A046-B47467CBF2CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0099", "R5T.T0099\R5T.T0099.csproj", "{8971D0FC-AE9E-479B-A046-B47467CBF2CE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{228895F1-867D-4FDB-BBD4-648B7CAB7140}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Magyar", "..\..\R5T.Magyar\source\R5T.Magyar\R5T.Magyar.csproj", "{AF943895-C18B-47C5-823A-F41350B3D4C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8971D0FC-AE9E-479B-A046-B47467CBF2CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -34,20 +29,11 @@ Global
 		{8971D0FC-AE9E-479B-A046-B47467CBF2CE}.Release|x64.Build.0 = Release|Any CPU
 		{8971D0FC-AE9E-479B-A046-B47467CBF2CE}.Release|x86.ActiveCfg = Release|Any CPU
 		{8971D0FC-AE9E-479B-A046-B47467CBF2CE}.Release|x86.Build.0 = Release|Any CPU
-		{AF943895-C18B-47C5-823A-F41350B3D4C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AF943895-C18B-47C5-823A-F41350B3D4C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AF943895-C18B-47C5-823A-F41350B3D4C5}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{AF943895-C18B-47C5-823A-F41350B3D4C5}.Debug|x64.Build.0 = Debug|Any CPU
-		{AF943895-C18B-47C5-823A-F41350B3D4C5}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{AF943895-C18B-47C5-823A-F41350B3D4C5}.Debug|x86.Build.0 = Debug|Any CPU
-		{AF943895-C18B-47C5-823A-F41350B3D4C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AF943895-C18B-47C5-823A-F41350B3D4C5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AF943895-C18B-47C5-823A-F41350B3D4C5}.Release|x64.ActiveCfg = Release|Any CPU
-		{AF943895-C18B-47C5-823A-F41350B3D4C5}.Release|x64.Build.0 = Release|Any CPU
-		{AF943895-C18B-47C5-823A-F41350B3D4C5}.Release|x86.ActiveCfg = Release|Any CPU
-		{AF943895-C18B-47C5-823A-F41350B3D4C5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{AF943895-C18B-47C5-823A-F41350B3D4C5} = {228895F1-867D-4FDB-BBD4-648B7CAB7140}
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54C5CC1C-F16A-4DEE-A5C5-9EC2F211798B}
 	EndGlobalSection
 EndGlobal
